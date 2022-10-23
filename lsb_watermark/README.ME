@@ -1,2 +1,19 @@
-輸入圖片有兩張，原圖及嵌入浮水印必須為兩張明顯不同的的 "同學自拍照" (都為灰階圖即可)，
+輸入圖片有兩張，原圖及嵌入浮水印必須為兩張明顯不同的的 "同學自拍照" (都為灰階圖即可)
 輸出圖片有六張，對原圖分別把 8bit (1)去掉lsb、(2)去掉least significant 2 bits 及  (3)去掉least significant 3 bits，並嵌入浮水印輸出，再從(1)、(2)、(3)還原出所嵌入的浮水印輸出。
+
+版本資訊
+Python==3.9.13
+numpy==1.23.3
+opencv-python==4.6.0.66
+matplotlib==3.6.0
+jupyter_client==7.3.5
+jupyter-core==4.11.1
+
+檔案副檔名: .ipynb
+
+輸入(兩張)圖片路徑: source/input
+輸出(六張)圖片路徑: source/output
+
+執行watermark.ipynb檔案即可
+
+
